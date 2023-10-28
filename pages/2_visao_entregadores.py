@@ -13,7 +13,7 @@ from PIL import Image
 
 from streamlit_folium import folium_static
 
-st.set_page_config(page_title="Visao Entregadores", page_icon='🛵', layout='wide')
+st.set_page_config(page_title="Visao Entregadores", page_icon="🛵", layout="wide")
 
 ###___________________________###
 #           FUNCOES             #
@@ -112,7 +112,7 @@ def clean_code(df1):
 # --------------------
 
 # Import Data Set
-df = pd.read_csv("../dataset/train.csv").reset_index()
+df = pd.read_csv("dataset/train.csv").reset_index()
 
 # Limpando dados
 df1 = clean_code(df)
@@ -123,7 +123,7 @@ df1 = clean_code(df)
 
 st.header("Marketplace - Visao Entregadores", divider="rainbow")
 
-#image_path = "logo.png"
+# image_path = "logo.png"
 image = Image.open("logo.png")
 st.sidebar.image(image, width=120)
 

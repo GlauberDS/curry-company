@@ -14,7 +14,7 @@ from PIL import Image
 
 from streamlit_folium import folium_static
 
-st.set_page_config(page_title="Visao Restaurantes", page_icon='🍴', layout='wide')
+st.set_page_config(page_title="Visao Restaurantes", page_icon="🍴", layout="wide")
 
 ###___________________________###
 #           FUNCOES             #
@@ -228,7 +228,7 @@ def clean_code(df1):
 # --------------------
 
 # Import Data Set
-df = pd.read_csv("../dataset/train.csv").reset_index()
+df = pd.read_csv("dataset/train.csv").reset_index()
 
 # Limpando dados
 df1 = clean_code(df)
@@ -240,7 +240,7 @@ df1 = clean_code(df)
 
 st.header("Marketplace - Visao Restaurantes", divider="rainbow")
 
-#IMAGE_PATH = "logo.png"
+# IMAGE_PATH = "logo.png"
 image = Image.open("logo.png")
 st.sidebar.image(image, width=120)
 

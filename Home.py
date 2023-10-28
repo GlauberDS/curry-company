@@ -5,7 +5,7 @@ from PIL import Image
 st.set_page_config(page_title="Home", page_icon="🍽️")
 
 # image_path = "/Users/user/Documents/repos/glauber/ftc_programacao_python/dataset/DashBoards/"
-image = Image.open("../logo.png")
+image = Image.open("logo.png")
 st.sidebar.image(image, width=120)
 
 
