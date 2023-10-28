@@ -213,7 +213,7 @@ df1 = clean_code(df)
 # Barra Lateral do StreamLit
 # ===============================
 
-st.header("Marketplace - Visao Empresa", divider="rainbow")
+st.header("Marketplace - Visao Empresa")
 
 # image_path = "logo.png"
 image = Image.open("logo.png")
