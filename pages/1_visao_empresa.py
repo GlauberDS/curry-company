@@ -184,7 +184,7 @@ def clean_code( df1 ):
 #--------------------
 
 # Import Data Set
-df = pd.read_csv("dataset/train.csv").reset_index()
+df = pd.read_csv("../dataset/train.csv").reset_index()
 
 # Limpando dados
 df1 = clean_code(df)
@@ -196,7 +196,7 @@ df1 = clean_code(df)
 st.header("Marketplace - Visao Empresa", divider="rainbow")
 
 #image_path = "logo.png"
-image = Image.open("../logo.png")
+image = Image.open("logo.png")
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown("# Curry Company")

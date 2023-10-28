@@ -112,7 +112,7 @@ def clean_code(df1):
 # --------------------
 
 # Import Data Set
-df = pd.read_csv("dataset/train.csv").reset_index()
+df = pd.read_csv("../dataset/train.csv").reset_index()
 
 # Limpando dados
 df1 = clean_code(df)

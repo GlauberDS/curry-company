@@ -1,14 +1,11 @@
-import streamlit as st 
+import streamlit as st
 from PIL import Image
 
 
-st.set_page_config(
-    page_title="Home",
-    page_icon="🍽️"
-)
+st.set_page_config(page_title="Home", page_icon="🍽️")
 
-#image_path = "/Users/user/Documents/repos/glauber/ftc_programacao_python/dataset/DashBoards/"
-image = Image.open('logo.png')
+# image_path = "/Users/user/Documents/repos/glauber/ftc_programacao_python/dataset/DashBoards/"
+image = Image.open("../logo.png")
 st.sidebar.image(image, width=120)
 
 
@@ -34,5 +31,5 @@ st.markdown(
     ### Ask for Help:
         - Time de Data Science no Discord:
             - @glauber1171
-""" )
-
+"""
+)
